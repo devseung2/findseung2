@@ -1,5 +1,10 @@
-# findseung2
-This repository is my Portfolio web page.
+# 포트폴리오 웹 사이트
+포트폴리오 웹 사이트를 구현 예정입니다.
 
-# 개발
+# 주요 기술
+- HTML5
+- CSS3
+- JavaScript
+
+# 프로젝트 일정
 시작 : 2019.01.12
