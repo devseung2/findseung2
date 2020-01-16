@@ -51,7 +51,7 @@ function About(): JSX.Element {
                 Profile
               </p>
             </div>
-            <img src="./img/profile.png" alt="프로필 사진" id="profile-img" />
+            <img src="/img/profile.png" alt="프로필 사진" id="profile-img" />
             <div>
               <p className="font-bold-700 font-1H font-color-lightgray">
                 석현승
