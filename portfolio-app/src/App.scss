@@ -1,0 +1,154 @@
+$menu-name-font-size : 2em;
+$page-background-color : #f5f5f5;
+$color-black : #000000;
+$color-white : #ffffff;
+$color-gray : #292929;
+$color-lightgray : #525151;
+$color-pink : #f50057;
+$font-bold : bold;
+
+.App {
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.background-color-gray {
+  background-color: $page-background-color;
+}
+
+// font 관련 SCSS 
+.font-bold {
+  font-weight: $font-bold;
+}
+
+.font-bold-700 {
+  font-weight: 700;
+}
+
+.font-bold-900 {
+  font-weight: 900;
+}
+
+.font-07 {
+  font-size: 0.7em;
+}
+
+.font-1H {
+  font-size: 1.5em;
+}
+
+.font-2 {
+  font-size: 2em;
+}
+
+.font-color-bl {
+  color: $color-black;
+}
+
+.font-color-white {
+  color: $color-white;
+}
+
+.font-color-gray {
+  color: $color-gray;
+}
+
+.font-color-lightgray {
+  color: $color-lightgray;
+}
+
+.font-color-pink {
+  color: $color-pink;
+}
+
+// menu name 관련 SCSS
+.menu-name {
+  font-size: $menu-name-font-size;
+  font-weight: $font-bold;
+  margin-bottom: 70px;
+
+}
+
+.menu-name:after {
+  content: "";
+  display: block;
+  width: 50px;
+  border-bottom: 2px solid $color-pink;
+  margin: 10px auto;
+}
+
+// icon 크기 관련 SCSS
+.icon-size {
+  font-size: 4em;
+}
+
+.icon-size-2e {
+  font-size: 2em;
+}
+
+.icon-size-2He {
+  font-size: 2.5em;
+}
+
+.icon-color {
+  color: #000000;
+}
+
+/* padding 관련 CSS */
+.padding-top-02e {
+  padding-top: 0.2em;
+}
+
+.padding-top-1e {
+  padding-top: 1em;
+}
+
+.padding-top-2e {
+  padding-top: 2em;
+}
+
+.padding-top-7e {
+  padding-top: 7em;
+}
+
+.margin-top-3e {
+  margin-top: 3em;
+}
+
+.padding-btm-1e {
+  padding-top: 1em;
+}
+
+.padding-top-btm-1e {
+  padding: 1em 0;
+}
+
+.padding-top-btm-2e {
+  padding: 2em 0;
+}
+
+.padding-top-btm-4e {
+  padding: 4em 0;
+}
+
+.padding-top-btm-5e {
+  padding: 5em 0;
+}
+
+.padding-left-right-1e {
+  padding: 0 1em;
+}
+
+.line {
+  border-color: $color-lightgray;
+  border-style: dashed;
+  border-width: thin;
+  margin: 20px 0;
+}
+
+.PrivateTabIndicator-root-62 {
+  display: none;
+}
