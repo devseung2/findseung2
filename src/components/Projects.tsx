@@ -19,16 +19,16 @@ function Projects(): JSX.Element {
         <Grid item xs={12} md={5}>
           <Carousel>
             <div>
-              <img src="/img/blogpage.png" alt="블로그페이지 사진1" />
+              <img src="./img/blogpage.png" alt="블로그페이지 사진1" />
             </div>
             <div>
-              <img src="/img/blogpage2.png" alt="블로그페이지 사진2" />
+              <img src="./img/blogpage2.png" alt="블로그페이지 사진2" />
             </div>
             <div>
-              <img src="/img/blogpage3.png" alt="블로그페이지 사진3" />
+              <img src="./img/blogpage3.png" alt="블로그페이지 사진3" />
             </div>
             <div>
-              <img src="/img/blogpage4.png" alt="블로그페이지 사진4" />
+              <img src="./img/blogpage4.png" alt="블로그페이지 사진4" />
             </div>
           </Carousel>
         </Grid>
@@ -77,16 +77,16 @@ function Projects(): JSX.Element {
         <Grid item xs={12} md={5}>
           <Carousel>
             <div>
-              <img src="/img/portfolio.png" alt="포트폴리오 사진1" />
+              <img src="./img/portfolio.png" alt="포트폴리오 사진1" />
             </div>
             <div>
-              <img src="/img/portfolio2.png" alt="포트폴리오 사진2" />
+              <img src="./img/portfolio2.png" alt="포트폴리오 사진2" />
             </div>
             <div>
-              <img src="/img/portfolio3.png" alt="포트폴리오 사진3" />
+              <img src="./img/portfolio3.png" alt="포트폴리오 사진3" />
             </div>
             <div>
-              <img src="/img/portfolio4.png" alt="포트폴리오 사진4" />
+              <img src="./img/portfolio4.png" alt="포트폴리오 사진4" />
             </div>
           </Carousel>
         </Grid>
