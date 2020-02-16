@@ -1,10 +1,53 @@
 $font-bold : bold;
-$background-color-white : #ffffff;
+$main-img-height : 50px;
+$main-img-width : 50px;
+$main-title-bold : 700;
+$main-img-margin : 200px;
+$main-menu-margin : 70px;
 
-.nav-background-color {
-  background-color: $background-color-white;
+.mainImg {
+  height: $main-img-height;
+  width: $main-img-width;
 }
 
-.MuiTab-wrapper {
+.mainTitle {
+  font-weight: $main-title-bold;
+}
+
+.nav {
+  background-color: #fff;
   font-weight: $font-bold;
+
+  .navImg {
+    margin-left: $main-img-margin;
+  }
+
+  .navItem {
+    margin-left: $main-menu-margin;
+  }
+}
+
+@media (max-width: 1200px) {
+  .nav {
+    .navImg {
+      margin-left: 150px;
+    }
+
+    .navItem {
+      margin-left: 25px;
+    }
+  }
+}
+
+
+@media (max-width: 900px) {
+  .nav {
+    .navImg {
+      margin-left: 0;
+    }
+
+    .navItem {
+      margin-left: 0;
+    }
+  }
 }

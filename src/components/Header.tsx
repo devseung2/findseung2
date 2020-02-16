@@ -1,61 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
 import "../css/Header.scss";
-import AppBar from "@material-ui/core/AppBar";
-import Tabs from "@material-ui/core/Tabs";
-import Tab from "@material-ui/core/Tab";
-
-// 메뉴 목록
-const MENU: { id: number; name: string; href: string }[] = [
-  {
-    id: 0,
-    name: "HOME",
-    href: "#home"
-  },
-  {
-    id: 1,
-    name: "ABOUT",
-    href: "#about"
-  },
-  {
-    id: 2,
-    name: "SKILLS",
-    href: "#skills"
-  },
-  {
-    id: 3,
-    name: "PROJECTS",
-    href: "#projects"
-  },
-  {
-    id: 4,
-    name: "CONTACT",
-    href: "#contact"
-  }
-];
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  Nav,
+  NavItem,
+  NavLink,
+  NavbarBrand
+} from "reactstrap";
 
 function Header() {
-  const [value, setValue] = React.useState(0);
+  const [isOpen, setIsOpen] = useState(false);
 
-  const handleChange = (event: React.ChangeEvent<{}>, newValue: number) => {
-    setValue(newValue);
-  };
+  const toggle = () => setIsOpen(!isOpen);
 
   return (
     <div id="menu">
-      <AppBar position="fixed">
-        <Tabs
-          value={value}
-          onChange={handleChange}
-          indicatorColor="secondary"
-          textColor="secondary"
-          className="nav-background-color"
-          centered
-        >
-          {MENU.map(menu => (
-            <Tab label={menu.name} href={menu.href} key={menu.id} />
-          ))}
-        </Tabs>
-      </AppBar>
+      <Navbar light expand="md" className="nav" fixed="top">
+        <NavbarBrand href="/" className="navImg">
+          <img src="./img/profile.png" alt="프로필 사진" className="mainImg" />
+          <span className="mainTitle">SEUNG2</span>
+        </NavbarBrand>
+        <NavbarToggler onClick={toggle} navbar />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav navbar>
+            <NavItem className="navItem">
+              <NavLink href="#home">HOME</NavLink>
+            </NavItem>
+            <NavItem className="navItem">
+              <NavLink href="#about">ABOUT</NavLink>
+            </NavItem>
+            <NavItem className="navItem">
+              <NavLink href="#skills">SKILLS</NavLink>
+            </NavItem>
+            <NavItem className="navItem">
+              <NavLink href="#projects">PROJECTS</NavLink>
+            </NavItem>
+            <NavItem className="navItem">
+              <NavLink href="#contact">CONTACT</NavLink>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>
     </div>
   );
 }
