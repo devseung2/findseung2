@@ -5,8 +5,8 @@
 # 주요 기술
 
 - React
-- TypeScript
-- Material-ui
+- SCSS
+- Reactstrap
 
 # 프로젝트 일정
 
