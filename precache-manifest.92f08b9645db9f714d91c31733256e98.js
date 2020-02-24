@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "33974d4638fca312609ff7c7f2d7e926",
+    "revision": "8151d02e83a80d54be13b14056c62115",
     "url": "/findseung2/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/findseung2/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "37d3da6173f64617cd2d",
+    "revision": "3edab7ff64f1987bd9b0",
     "url": "/findseung2/static/css/main.48bdfc41.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/findseung2/static/js/2.cf9447dc.chunk.js.LICENSE"
   },
   {
-    "revision": "37d3da6173f64617cd2d",
-    "url": "/findseung2/static/js/main.57cc4b14.chunk.js"
+    "revision": "3edab7ff64f1987bd9b0",
+    "url": "/findseung2/static/js/main.94a39459.chunk.js"
   },
   {
     "revision": "64430eae19b888e716ba",
