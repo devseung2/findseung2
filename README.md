@@ -1,6 +1,6 @@
 # 포트폴리오 웹 사이트
 
-저만의 포트폴리오를 웹 사이트로 구현했습니다.
+저만의 포트폴리오 웹 사이트를 구현했습니다.
 
 # 주요 기술
 
@@ -15,3 +15,4 @@
 # 사이트
 
 https://devseung2.github.io/findseung2/
+https://blog.naver.com/dev_seung2/221823033336
