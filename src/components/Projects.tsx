@@ -41,7 +41,43 @@ function Projects(): JSX.Element {
         <p className="menu-name font-color-pink">PROJECTS</p>
       </div>
       <Container>
-        {/* 프로젝트 1번 블로그페이지 */}
+        <Row>
+          {/* 프로젝트 1번 포트폴리오 */}
+          <Col xs={12} sm={12} md={6}>
+            <div>
+              <p className="font-bold-900 font-2">포트폴리오 웹 사이트</p>
+              <p className="font-color-lightgray font-bold">
+                React로 SPA를 개발한 포트폴리오 사이트입니다.
+              </p>
+              <div className="padding-top-btm-1e">
+                <p className="font-bold">2020.01.11 - 2020.01.24(2주)</p>
+                <p className="font-bold">React, SCSS, Reactstrap</p>
+              </div>
+              <div>
+                <p className="font-bold">기획/디자인/개발</p>
+              </div>
+              <div className="padding-top-1e">
+                <a
+                  href="http://devseung2.github.io/findseung2/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon
+                    icon={faExternalLinkAlt}
+                    className="icon-size-2e icon-color"
+                  />
+                </a>
+              </div>
+            </div>
+          </Col>
+          <Col xs={12} sm={12} md={6} className="padding-btm-1e">
+            <UncontrolledCarousel items={carousel_portfolio} />
+          </Col>
+        </Row>
+        
+        <div className="bottom-line"></div>
+
+        {/* 프로젝트 2번 블로그페이지 */}
         <Row>
           <Col xs={12} sm={12} md={6} className="padding-btm-1e">
             <UncontrolledCarousel items={carousel_blogpage} />
@@ -76,39 +112,6 @@ function Projects(): JSX.Element {
           </Col>
         </Row>
 
-        <Row className="padding-top-5e">
-          {/* 프로젝트 2번 포트폴리오 */}
-          <Col xs={12} sm={12} md={6} className="padding-btm-1e">
-            <UncontrolledCarousel items={carousel_portfolio} />
-          </Col>
-          <Col xs={12} sm={12} md={6}>
-            <div>
-              <p className="font-bold-900 font-2">포트폴리오 웹 사이트</p>
-              <p className="font-color-lightgray font-bold">
-                React로 SPA를 개발한 포트폴리오 사이트입니다.
-              </p>
-              <div className="padding-top-btm-1e">
-                <p className="font-bold">2020.01.11 - 2020.01.24(2주)</p>
-                <p className="font-bold">React, SCSS, Reactstrap</p>
-              </div>
-              <div>
-                <p className="font-bold">기획/디자인/개발</p>
-              </div>
-              <div className="padding-top-1e">
-                <a
-                  href="http://devseung2.github.io/findseung2/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon
-                    icon={faExternalLinkAlt}
-                    className="icon-size-2e icon-color"
-                  />
-                </a>
-              </div>
-            </div>
-          </Col>
-        </Row>
       </Container>
     </div>
   );

@@ -18,7 +18,7 @@ function Header() {
   return (
     <div id="menu">
       <Navbar light expand="md" className="nav" fixed="top">
-        <NavbarBrand href="/" className="navImg">
+        <NavbarBrand href="" className="navImg">
           <img src="./img/profile.png" alt="프로필 사진" className="mainImg" />
           <span className="mainTitle">SEUNG2</span>
         </NavbarBrand>
