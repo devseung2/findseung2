@@ -7,7 +7,7 @@ function Home(): JSX.Element {
     <div id="home">
       <Container>
         <Row>
-          <Col xs={12} md={12}>
+          <Col xs={12} sm={12} md={12}>
             <div className="title">
               <div className="font-bold">
                 Hello, I’m{" "}
