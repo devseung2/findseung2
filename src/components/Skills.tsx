@@ -11,7 +11,8 @@ import {
   faJs,
   faReact,
   faJava,
-  faNode
+  faNode,
+  faVuejs
 } from "@fortawesome/free-brands-svg-icons";
 
 function Skills(): JSX.Element {
@@ -122,6 +123,10 @@ function Skills(): JSX.Element {
             <p className="font-bold font-color-gray">React</p>
           </Col>
           <Col xs={4} sm={3} md={2} className="padding-top-btm-05e">
+            <FontAwesomeIcon icon={faVuejs} className="icon-size" />
+            <p className="font-bold font-color-gray">Vue</p>
+          </Col>
+          <Col xs={4} sm={3} md={2} className="padding-top-btm-05e">
             <svg
               version="1"
               xmlns="http://www.w3.org/2000/svg"
@@ -130,45 +135,11 @@ function Skills(): JSX.Element {
             >
               <path d="M0 128v128h256V0H0v128zm157-4.5V135h-33v105H97V135H64v-23h93v11.5zm65-10.1c4.1.8 8.7 1.9 10.3 2.5l2.7 1.1v12.5c0 6.9-.2 12.5-.4 12.5s-2.3-1.1-4.7-2.4c-9-5.1-23.4-7-32.2-4.4-2.1.6-5.2 2.5-6.8 4.1-2.4 2.3-2.9 3.7-2.9 7.4 0 4 .5 5.1 3.8 8.2 2.1 2 9.9 6.6 17.5 10.4 16 7.9 24.1 14.6 27.8 22.9 3.3 7.4 3.4 23 .2 30-3 6.6-9.6 13.3-16.1 16.4-13.8 6.5-36.3 7.1-53.9 1.3l-6.3-2.1V206l5 3.6c6.5 4.7 14.9 7.6 23.7 8.2 8.8.6 15.3-1 19.3-4.8 2.5-2.3 3-3.6 3-7.4 0-7.3-4.2-11.1-21.4-19.5-15.2-7.5-20-10.9-24.5-17.5-10-14.5-7-36.7 6.4-46.8 11.4-8.7 30.3-11.9 49.5-8.4z" />
             </svg>
-            <p className="font-bold font-color-gray">TypeScript</p>
+            <p className="font-bold font-color-gray padding-top-03e">TypeScript</p>
           </Col>
           <Col xs={4} sm={3} md={2} className="padding-top-btm-05e">
             <FontAwesomeIcon icon={faNode} className="icon-size" />
             <p className="font-bold font-color-gray">Node.js</p>
-          </Col>
-          <Col xs={4} sm={3} md={2} className="padding-top-btm-05e">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="svg-width-height"
-              viewBox="0 0 400 400"
-            >
-              <path
-                fill="black"
-                d="M57.468 302.66l-14.376-8.3 160.15-277.38 14.376 8.3z"
-              />
-              <path fill="black" d="M39.8 272.2h320.3v16.6H39.8z" />
-              <path
-                fill="black"
-                d="M206.348 374.026l-160.21-92.5 8.3-14.376 160.21 92.5zM345.522 132.947l-160.21-92.5 8.3-14.376 160.21 92.5z"
-              />
-              <path
-                fill="black"
-                d="M54.482 132.883l-8.3-14.375 160.21-92.5 8.3 14.376z"
-              />
-              <path
-                fill="black"
-                d="M342.568 302.663l-160.15-277.38 14.376-8.3 160.15 277.38zM52.5 107.5h16.6v185H52.5zM330.9 107.5h16.6v185h-16.6z"
-              />
-              <path
-                fill="black"
-                d="M203.522 367l-7.25-12.558 139.34-80.45 7.25 12.557z"
-              />
-              <path
-                fill="black"
-                d="M369.5 297.9c-9.6 16.7-31 22.4-47.7 12.8-16.7-9.6-22.4-31-12.8-47.7 9.6-16.7 31-22.4 47.7-12.8 16.8 9.7 22.5 31 12.8 47.7M90.9 137c-9.6 16.7-31 22.4-47.7 12.8-16.7-9.6-22.4-31-12.8-47.7 9.6-16.7 31-22.4 47.7-12.8 16.7 9.7 22.4 31 12.8 47.7M30.5 297.9c-9.6-16.7-3.9-38 12.8-47.7 16.7-9.6 38-3.9 47.7 12.8 9.6 16.7 3.9 38-12.8 47.7-16.8 9.6-38.1 3.9-47.7-12.8M309.1 137c-9.6-16.7-3.9-38 12.8-47.7 16.7-9.6 38-3.9 47.7 12.8 9.6 16.7 3.9 38-12.8 47.7-16.7 9.6-38.1 3.9-47.7-12.8M200 395.8c-19.3 0-34.9-15.6-34.9-34.9 0-19.3 15.6-34.9 34.9-34.9 19.3 0 34.9 15.6 34.9 34.9 0 19.2-15.6 34.9-34.9 34.9M200 74c-19.3 0-34.9-15.6-34.9-34.9 0-19.3 15.6-34.9 34.9-34.9 19.3 0 34.9 15.6 34.9 34.9 0 19.3-15.6 34.9-34.9 34.9"
-              />
-            </svg>
-            <p className="font-bold font-color-gray">Graphql</p>
           </Col>
           <Col xs={4} sm={3} md={2} className="padding-top-btm-05e">
             <FontAwesomeIcon icon={faJava} className="icon-size" />

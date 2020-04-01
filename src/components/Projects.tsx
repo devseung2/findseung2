@@ -2,7 +2,7 @@ import React from "react";
 import "../App.scss";
 import { Container, Row, Col, UncontrolledCarousel } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+import { faExternalLinkAlt, faCode, faCheck, faUser, faUsers, faCalendarAlt } from "@fortawesome/free-solid-svg-icons";
 
 const carousel_blogpage = [
   {
@@ -43,18 +43,47 @@ function Projects(): JSX.Element {
       <Container>
         <Row>
           {/* 프로젝트 1번 포트폴리오 */}
-          <Col xs={12} sm={12} md={6}>
+          <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
             <div>
               <p className="font-bold-900 font-2">포트폴리오 웹 사이트</p>
               <p className="font-color-lightgray font-bold">
                 React로 SPA를 개발한 포트폴리오 사이트입니다.
               </p>
               <div className="padding-top-btm-1e">
-                <p className="font-bold">2020.01.11 - 2020.01.24(2주)</p>
-                <p className="font-bold">React, SCSS, Reactstrap</p>
+                <p className="font-bold">
+                  <FontAwesomeIcon
+                    icon={faUser}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="padding-left-right-1e">개인</span>
+                </p>
+                <p className="font-bold">
+                  <FontAwesomeIcon
+                    icon={faCalendarAlt}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="padding-left-right-1e">2020.01.11 - 2020.01.24 (2주)</span>
+                </p>
+                <p className="font-bold">
+                  <FontAwesomeIcon
+                    icon={faCode}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="keyword-yellow margin-left-1e margin-right-03e">React</span> 
+                  <span className="keyword-yellow margin-left-right-03e">SCSS</span> 
+                  <span className="keyword-yellow margin-left-right-03e">Reactstrap</span> 
+                </p>
               </div>
               <div>
-                <p className="font-bold">기획/디자인/개발</p>
+                <p className="font-bold">
+                  <FontAwesomeIcon
+                    icon={faCheck}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="keyword-gray margin-left-1e margin-right-03e">기획</span> 
+                  <span className="keyword-gray margin-left-right-03e">디자인</span>
+                  <span className="keyword-gray margin-left-right-03e">개발</span>
+                </p>
               </div>
               <div className="padding-top-1e">
                 <a
@@ -70,7 +99,7 @@ function Projects(): JSX.Element {
               </div>
             </div>
           </Col>
-          <Col xs={12} sm={12} md={6} className="padding-btm-1e">
+          <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
             <UncontrolledCarousel items={carousel_portfolio} />
           </Col>
         </Row>
@@ -79,22 +108,56 @@ function Projects(): JSX.Element {
 
         {/* 프로젝트 2번 블로그페이지 */}
         <Row>
-          <Col xs={12} sm={12} md={6} className="padding-btm-1e">
+          <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
             <UncontrolledCarousel items={carousel_blogpage} />
           </Col>
-          <Col xs={12} sm={12} md={6}>
+          <Col xs={12} sm={12} md={6} className="padding-top-btm-1e">
             <div>
               <p className="font-bold-900 font-2">블로그페이지</p>
               <p className="font-color-lightgray font-bold">
                 풀스택으로 개발한 블로그 체험단 서비스입니다.
               </p>
               <div className="padding-top-btm-1e">
-                <p className="font-bold">2017.11.01 - 2018.01.31(3개월)</p>
-                <p className="font-bold">HTML5, CSS3, Bootstrap</p>
-                <p className="font-bold">JavaScript(jQuery), Node.js, MYSQL</p>
+                <p className="font-bold">
+                  <FontAwesomeIcon
+                    icon={faUsers}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="padding-left-right-1e">2명</span>
+                  <span className="keyword-gray margin-left-right-03e">기여도 <span className="font-red">70</span> %</span>
+                </p>
+                <p className="font-bold">
+                  <FontAwesomeIcon
+                    icon={faCalendarAlt}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="padding-left-right-1e">2017.11 - 2018.01 (3개월)</span>
+                </p>
+                <p className="font-bold">
+                  <FontAwesomeIcon
+                    icon={faCode}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="keyword-yellow margin-left-1e margin-right-03e">HTML5</span> 
+                  <span className="keyword-yellow margin-left-right-03e">CSS3</span> 
+                  <span className="keyword-yellow margin-left-right-03e">Bootstrap</span> 
+                </p>
+                <p className="font-bold">
+                  <span className="keyword-yellow margin-left-right-03ee">JavaScript(jQuery)</span> 
+                  <span className="keyword-yellow margin-left-right-03e">Node.js</span> 
+                  <span className="keyword-yellow margin-left-right-03e">MYSQL</span> 
+                </p>
               </div>
               <div>
-                <p className="font-bold">기획/디자인/개발</p>
+                <p className="font-bold">
+                  <FontAwesomeIcon
+                    icon={faCheck}
+                    className="icon-size-1e icon-color"
+                  />
+                  <span className="keyword-gray margin-left-1e margin-right-03e">기획</span> 
+                  <span className="keyword-gray margin-left-right-03e">디자인</span>
+                  <span className="keyword-gray margin-left-right-03e">개발</span>
+                </p>
               </div>
               <div className="padding-top-1e">
                 <a

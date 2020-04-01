@@ -3,7 +3,7 @@ $main-img-height : 50px;
 $main-img-width : 50px;
 $main-title-bold : 700;
 $main-img-margin : 200px;
-$main-menu-margin : 70px;
+$main-menu-margin : 12px;
 
 .mainImg {
   height: $main-img-height;
@@ -18,36 +18,8 @@ $main-menu-margin : 70px;
   background-color: #fff;
   font-weight: $font-bold;
 
-  .navImg {
-    margin-left: $main-img-margin;
-  }
-
   .navItem {
     margin-left: $main-menu-margin;
-  }
-}
-
-@media (max-width: 1200px) {
-  .nav {
-    .navImg {
-      margin-left: 150px;
-    }
-
-    .navItem {
-      margin-left: 25px;
-    }
-  }
-}
-
-
-@media (max-width: 900px) {
-  .nav {
-    .navImg {
-      margin-left: 0;
-    }
-
-    .navItem {
-      margin-left: 0;
-    }
+    margin-right: $main-menu-margin;
   }
 }

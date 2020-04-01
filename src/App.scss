@@ -23,7 +23,25 @@ html {
   background-color: #ffffff;
 }
 
+.keyword-gray {
+  background-color: #eeeeee;
+  color: #333;
+  border-radius: 3px;
+  padding: 3px 3px;
+}
+
+.keyword-yellow {
+  background-color: #FFFF7E;
+  color: #333;
+  border-radius: 3px;
+  padding: 3px 3px;
+}
+
 // font 관련 SCSS
+.font-red {
+  color: #ff0000;
+}
+
 .font-bold {
   font-weight: $font-bold;
 }
@@ -92,6 +110,10 @@ html {
   font-size: 4em;
 }
 
+.icon-size-1e {
+  font-size: 1em;
+}
+
 .icon-size-2e {
   font-size: 2em;
 }
@@ -107,6 +129,10 @@ html {
 /* padding 관련 CSS */
 .padding-top-02e {
   padding-top: 0.2em;
+}
+
+.padding-top-03e {
+  padding-top: 0.3em;
 }
 
 .padding-top-1e {
@@ -153,12 +179,28 @@ html {
   padding: 5em 0;
 }
 
+.padding-left-right-05e {
+  padding: 0 0.5em;
+}
+
 .padding-left-right-1e {
   padding: 0 1em;
 }
 
 .margin-top-3e {
   margin-top: 3em;
+}
+
+.margin-left-1e {
+  margin-left: 1em;
+}
+
+.margin-right-03e {
+  margin-right: 0.3em;
+}
+
+.margin-left-right-03e {
+  margin: 0 0.3em;
 }
 
 .line {
@@ -186,6 +228,12 @@ html {
 
 .fixed {
   position: fixed;
+}
+
+.bottom-line-small {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: solid 1px #f5f5f5;
 }
 
 .bottom-line {
