@@ -17,7 +17,7 @@ import {
 
 function Skills(): JSX.Element {
   return (
-    <div id="skills" className="background-color-gray padding-top-btm-4e">
+    <div id="skills" className="background-color-gray padding-top-btm-5e">
       <div>
         <p className="menu-name font-color-pink">SKILLS</p>
       </div>
