@@ -143,7 +143,7 @@ function Projects(): JSX.Element {
                   <span className="keyword-yellow margin-left-right-03e">Bootstrap</span> 
                 </p>
                 <p className="font-bold">
-                  <span className="keyword-yellow margin-left-right-03ee">JavaScript(jQuery)</span> 
+                  <span className="keyword-yellow">JavaScript(jQuery)</span> 
                   <span className="keyword-yellow margin-left-right-03e">Node.js</span> 
                   <span className="keyword-yellow margin-left-right-03e">MYSQL</span> 
                 </p>

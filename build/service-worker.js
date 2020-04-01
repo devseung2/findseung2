@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/findseung2/precache-manifest.9c65bccff7a17c8e25e6cc794849359a.js"
+  "/findseung2/precache-manifest.d20472a2703b97b9fadc6e3ad77fcf07.js"
 );
 
 self.addEventListener('message', (event) => {

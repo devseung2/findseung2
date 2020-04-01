@@ -1,4 +1,4 @@
-import React from "react";
+  import React from "react";
 import "../App.scss";
 import "../css/About.scss";
 import { Container, Row, Col } from "reactstrap";
@@ -145,7 +145,7 @@ function About(): JSX.Element {
                   <span className="keyword-yellow margin-left-right-03e">Bootstrap</span>
                 </p>
                 <p className="font-color-lightgray font-bold-700">
-                  <span className="keyword-yellow margin-left-1e margin-right-03e">JavaScript(jQuery)</span> 
+                  <span className="keyword-yellow">JavaScript(jQuery)</span> 
                   <span className="keyword-yellow margin-left-right-03e">Node.js</span> 
                   <span className="keyword-yellow margin-left-right-03e">MYSQL</span>
                 </p>
