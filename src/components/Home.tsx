@@ -10,8 +10,8 @@ function Home(): JSX.Element {
           <Col xs={12} sm={12} md={12}>
             <div className="title">
               <div className="font-bold">
-                Hello, I’m{" "}
-                <span className="font-color-pink">Hyunseung Seok</span>.
+                Hello, I’m
+                <span className="font-color-pink"> SEUNG2</span>.
               </div>
               <div className="font-bold">JavaScript Developer.</div>
             </div>

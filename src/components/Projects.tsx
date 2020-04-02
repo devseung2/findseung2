@@ -36,7 +36,7 @@ const carousel_portfolio = [
 
 function Projects(): JSX.Element {
   return (
-    <div id="projects" className="padding-top-btm-4e">
+    <div id="projects" className="padding-top-btm-5e">
       <div>
         <p className="menu-name font-color-pink">PROJECTS</p>
       </div>

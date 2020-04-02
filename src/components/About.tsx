@@ -16,7 +16,7 @@ import { faBlogger, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function About(): JSX.Element {
   return (
-    <div id="about" className="padding-top-btm-4e">
+    <div id="about" className="padding-top-btm-5e">
       <div>
         <p className="menu-name font-color-pink">ABOUT</p>
       </div>

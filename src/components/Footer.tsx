@@ -3,7 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 
 function Footer(): JSX.Element {
   return (
-    <div id="footer" className="padding-top-btm-2e">
+    <div id="footer" className="padding-top-btm-1e">
       <Container>
         <Row>
           <Col xs={12} sm={12} md={12}>

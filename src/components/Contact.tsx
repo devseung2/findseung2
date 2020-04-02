@@ -6,7 +6,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Contact(): JSX.Element {
   return (
-    <div id="contact" className="background-color-gray padding-top-btm-4e">
+    <div id="contact" className="background-color-gray padding-top-btm-5e">
       <div>
         <p className="menu-name font-color-pink">CONTACT</p>
       </div>
