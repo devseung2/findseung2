@@ -17,6 +17,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
+  const setIsClose = () => setIsOpen(false);
 
   return (
     <div id="menu">
@@ -36,19 +37,19 @@ function Header() {
               <Collapse isOpen={isOpen} navbar>
                 <Nav navbar>
                   <NavItem className="navItem">
-                    <NavLink href="#home" onClick={toggle}>HOME</NavLink>
+                    <NavLink href="#home" onClick={setIsClose}>HOME</NavLink>
                   </NavItem>
                   <NavItem className="navItem">
-                    <NavLink href="#about" onClick={toggle}>ABOUT</NavLink>
+                    <NavLink href="#about" onClick={setIsClose}>ABOUT</NavLink>
                   </NavItem>
                   <NavItem className="navItem">
-                    <NavLink href="#skills" onClick={toggle}>SKILLS</NavLink>
+                    <NavLink href="#skills" onClick={setIsClose}>SKILLS</NavLink>
                   </NavItem>
                   <NavItem className="navItem">
-                    <NavLink href="#projects" onClick={toggle}>PROJECTS</NavLink>
+                    <NavLink href="#projects" onClick={setIsClose}>PROJECTS</NavLink>
                   </NavItem>
                   <NavItem className="navItem">
-                    <NavLink href="#contact" onClick={toggle}>CONTACT</NavLink>
+                    <NavLink href="#contact" onClick={setIsClose}>CONTACT</NavLink>
                   </NavItem>
                 </Nav>
               </Collapse>
