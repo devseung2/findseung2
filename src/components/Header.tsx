@@ -34,8 +34,8 @@ function Header() {
               <Col xs={3} sm={2} md={{ size: 1, offset: 1 }}>
                 <NavbarToggler onClick={toggle} navbar />
               </Col>
-              <Collapse isOpen={isOpen} navbar>
-                <Nav navbar>
+              <Collapse isOpen={isOpen} navbar className="navbar-collapse">
+                <Nav navbar className="navbar-ul">
                   <NavItem className="navItem">
                     <NavLink href="#home" onClick={setIsClose}>HOME</NavLink>
                   </NavItem>

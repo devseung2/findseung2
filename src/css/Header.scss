@@ -18,8 +18,27 @@ $main-menu-margin : 12px;
   background-color: #fff;
   font-weight: $font-bold;
 
-  .navItem {
-    margin-left: $main-menu-margin;
-    margin-right: $main-menu-margin;
+  .navbar-collapse {
+    left: 40%;
+    position: absolute;
+  
+    @media screen and (max-width : 1000px){
+      left: 30%;
+    }
+    @media screen and (max-width : 900px){
+      left: 30%;
+    }
+
+    .navbar-ul {
+      min-width: 600px;
+
+      .navItem {
+        width: 150px;
+
+        @media screen and (max-width : 1200px){
+          width: 100px;
+        }
+      }
+    }
   }
 }
