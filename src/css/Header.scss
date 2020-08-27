@@ -19,25 +19,25 @@ $main-menu-margin : 12px;
   font-weight: $font-bold;
 
   .navbar-collapse {
-    left: 40%;
-    position: absolute;
-  
-    @media screen and (max-width : 1000px){
-      left: 30%;
+    @media screen and (min-width : 1001px){
+      left: 40%;
+      position: absolute;
     }
-    @media screen and (max-width : 900px){
+    @media screen and (min-width : 769px) and (max-width : 1000px){
       left: 30%;
+      position: absolute;
     }
 
     .navbar-ul {
-      min-width: 600px;
+      @media screen and (min-width : 1201px){
+        width: 600px;
+      }
+      @media screen and (min-width : 769px) and (max-width : 1200px){
+        width: 500px;
+      }
 
       .navItem {
-        width: 150px;
-
-        @media screen and (max-width : 1200px){
-          width: 100px;
-        }
+        width: 100%;
       }
     }
   }
